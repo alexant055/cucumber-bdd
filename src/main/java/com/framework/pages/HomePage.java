@@ -12,4 +12,8 @@ public class HomePage extends Page {
     public String getHomePageTitle() {
         return getPageTitle();
     }
+
+    public void clickCard(String cardName) {
+        getCardItem(cardName).click();
+    }
 }

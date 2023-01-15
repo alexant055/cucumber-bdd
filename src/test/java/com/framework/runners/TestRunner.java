@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(features = "src/test/resources/features",
         glue = {"com.framework.steps", "com.framework.runners"},
-        plugin = {"pretty", "html:target/cucumber-reports",
+        plugin = {"pretty", "html:target/cucumber-reports.html",
                 "json:target/cucumber.json",
                 "rerun:target/rerun.txt"}
 )

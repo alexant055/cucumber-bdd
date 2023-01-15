@@ -26,6 +26,7 @@ public class Hooks {
             logger.info(String.format("Passed: %s", scenario.getName()));
         else
             logger.error(String.format("Failed: %s", scenario.getName()));
+        // close and quit the driver
         testContext.getWebDriverController().closeDriver();
     }
 }

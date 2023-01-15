@@ -25,12 +25,17 @@ public class HomePageSteps {
         Assert.assertEquals(title, homePage.getHomePageTitle());
     }
 
-    @When("application launched")
+    @Given("application launched")
     public void applicationLaunched() {
+        homePage.launchApplication();
     }
 
-    @Given("application url")
-    public void applicationUrl() {
-        homePage.launchApplication();
+    @When("page loaded")
+    public void pageLoaded() {
+    }
+
+    @When("{string} card clicked")
+    public void cardClicked(String cardName) {
+        homePage.clickCard(cardName);
     }
 }

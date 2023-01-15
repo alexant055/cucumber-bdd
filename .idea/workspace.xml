@@ -4,31 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ec280c-36df-4138-b434-163087e46ea1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/config/ConfigFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/enums/DriverType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/enums/EnvironmentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/managers/FileReadManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/managers/LoggerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/managers/PageObjectManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/managers/TestContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/managers/WebDriverController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/pages/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config-qa.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/junit-platform.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/runners/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/runners/TestReRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/steps/HomePageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/homepage.feature" afterDir="false" />
+    <list default="true" id="09ec280c-36df-4138-b434-163087e46ea1" name="Changes" comment="added files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/pages/ElementsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/steps/ElementsPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/elementspage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/managers/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/managers/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/pages/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/runners/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/runners/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/runners/TestReRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/runners/TestReRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/steps/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/steps/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/homepage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/homepage.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +86,19 @@
       <option name="presentableId" value="Default" />
       <updated>1673616443561</updated>
     </task>
+    <task id="LOCAL-00001" summary="added files">
+      <created>1673704513655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673704513655</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
